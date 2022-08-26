@@ -1,5 +1,6 @@
 # 整合包信息
 ### 整合包LOGO
+https://github.com/creepercast/Hydrogen-Skyblock/blob/main/logo.png
 
 ### 整合包世界观
 【待补充】
