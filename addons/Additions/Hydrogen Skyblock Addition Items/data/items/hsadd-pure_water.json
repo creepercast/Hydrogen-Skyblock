@@ -1,0 +1,34 @@
+{
+  "name": "§bThe Purest Water",
+  "shines": true,
+  "tooltip": "§bWater, But Eternal ...",
+  "max_stack": 1,
+  "hunger": 0,
+  "saturation": 0.0,
+  "always_edible": true,
+  "eat_time": 10,
+  "is_drink": true,
+  "eaten_effects": [
+    {
+      "potion_type": "minecraft:empty",
+      "reapplication_delay": 1200,
+      "type": "additions:potion"
+    },
+    {
+      "potion_type": "minecraft:empty",
+      "reapplication_delay": 1200,
+      "type": "additions:potion"
+    },
+    {
+      "potion_type": "minecraft:empty",
+      "reapplication_delay": 1,
+      "type": "additions:potion"
+    },
+    {
+      "command": "give @p additions:hsadd-rain_drop",
+      "command_sender_name": "Rain_Flying",
+      "type": "additions:command"
+    }
+  ],
+  "type": "additions:food"
+}

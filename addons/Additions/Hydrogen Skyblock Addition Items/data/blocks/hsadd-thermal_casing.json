@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "Thermal Casing",
+    "type": "additions:block_simple"
+  },
+  "name": "Thermal Casing",
+  "material": "minecraft:stone",
+  "hardness": 3.0,
+  "resistance": 4.0,
+  "harvest_level": 2,
+  "harvest_tool": "pickaxe",
+  "effective_tools": "pickaxe",
+  "type": "additions:simple"
+}

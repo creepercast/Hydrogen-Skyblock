@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "additions:items/hsadd-ys_gnoodle-layer0"
+  }
+}

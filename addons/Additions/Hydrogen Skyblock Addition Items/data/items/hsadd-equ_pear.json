@@ -1,0 +1,10 @@
+{
+  "name": "§dequ Pear",
+  "shines": true,
+  "tooltip": "§d§oequ in a Pear",
+  "hunger": 5,
+  "saturation": 0.3,
+  "always_edible": true,
+  "eat_time": 20,
+  "type": "additions:food"
+}

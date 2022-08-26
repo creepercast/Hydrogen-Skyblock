@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "Aquamarine Block",
+    "type": "additions:block_simple"
+  },
+  "name": "Aquamarine Block",
+  "material": "minecraft:stone",
+  "hardness": 3.0,
+  "resistance": 5.0,
+  "harvest_level": 1,
+  "harvest_tool": "pickaxe",
+  "effective_tools": "pickaxe",
+  "light_level": 7,
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

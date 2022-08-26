@@ -1,0 +1,6 @@
+{
+  "name": "Starsteel Ingot",
+  "shines": true,
+  "is_beacon_payment": true,
+  "type": "additions:simple"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "§3Frozen equ Pear",
+  "shines": true,
+  "tooltip": "§3§oCold, but Yummy ~",
+  "hunger": 8,
+  "saturation": 0.3125,
+  "always_edible": true,
+  "eat_time": 20,
+  "eaten_effects": [
+    {
+      "command": "/effect @p minecraft:fire_resistance 600",
+      "type": "additions:command"
+    },
+    {
+      "command": "/effect @p minecraft:slowness 20",
+      "type": "additions:command"
+    }
+  ],
+  "type": "additions:food"
+}

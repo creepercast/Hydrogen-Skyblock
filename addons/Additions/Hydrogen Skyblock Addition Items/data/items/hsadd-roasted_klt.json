@@ -1,0 +1,9 @@
+{
+  "name": "§5Roasted KLT",
+  "tooltip": "§5§oSome Cola with Cooked Rabbit Meat !",
+  "hunger": 10,
+  "saturation": 0.5,
+  "wolves_eat": true,
+  "always_edible": true,
+  "type": "additions:food"
+}
