@@ -56,7 +56,7 @@ var runeList = {
 var mark = 0;
 
 for input,output in runeList {
-    recipes.remove(output[0][0]);
+    mods.botania.RuneAltar.removeRecipe(output[0][0]);
 
     var reci = RecipeBuilder.newBuilder("stamp_"+mark,"botania_rune_stamp",input[1]*20);    
     if (input[1] == 1) { // All runes nend Blank Rune, Lv1 Runes need Mana Powder.
