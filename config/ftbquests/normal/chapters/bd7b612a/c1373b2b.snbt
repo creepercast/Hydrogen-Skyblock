@@ -1,0 +1,28 @@
+{
+	title: "起源",
+	icon: "minecraft:grass",
+	x: 0.0d,
+	y: 0.0d,
+	description: "还有一些提示",
+	text: [
+		"空岛的Y值由你决定！这或许会对你的发展产生重要影响",
+		"",
+		"所以，你打定主意了吗？"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "dd1c7243",
+		type: "checkmark",
+		title: "开始"
+	}],
+	rewards: [{
+		uid: "400f6c22",
+		type: "item",
+		item: "minecraft:grass"
+	},
+	{
+		uid: "c7fed656",
+		type: "item",
+		item: "minecraft:sapling"
+	}]
+}

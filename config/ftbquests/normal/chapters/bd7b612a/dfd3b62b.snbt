@@ -1,0 +1,16 @@
+{
+	title: "粉碎 II",
+	x: 14.0d,
+	y: 0.0d,
+	description: "再锤一次！",
+	dependencies: [
+		"0f795bed"
+	],
+	tasks: [{
+		uid: "b07f92bd",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}]
+	}]
+}

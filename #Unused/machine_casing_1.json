@@ -1,0 +1,43 @@
+{
+    "name":"compactmachines3:machine_casing_1",
+    "disabled":false,
+
+    "target-item":"modularmachinery:blockcasing",
+    "target-meta":0,
+    "target-count":64,
+
+    "duration":500,
+    "symmetrical":true,
+
+    "catalyst":"additions:hsadd-nuggetmodularium",
+    "catalyst-meta":0,
+
+    "input-types":{
+        "r":{
+            "id":"minecraft:redstone_block",
+            "meta":0
+        },
+        "m":{
+            "id":"additions:hsadd-blockmodularium",
+            "meta":0
+        }
+    },
+
+    "shape":[
+        [
+            ["r","r","r"],
+            ["r","m","r"],
+            ["r","r","r"]
+        ],
+        [
+            ["r","m","r"],
+            ["m","m","m"],
+            ["r","m","r"]
+        ],
+        [
+            ["r","r","r"],
+            ["r","m","r"],
+            ["r","r","r"]
+        ]
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "name":"compactmachines3:machine_controller",
+    "disabled":false,
+
+    "target-item":"modularmachinery:blockcontroller",
+    "target-count":2,
+
+    "duration":500,
+    "symmetrical":true,
+
+    "catalyst":"additions:hsadd-nuggetmodularium",
+    "catalyst-meta":0,
+
+    "input-types":{
+        "d":{
+            "id":"minecraft:diamond_block",
+            "meta":0
+        },
+        "m":{
+            "id":"modularmachinery:blockcasing",
+            "meta":0
+        },
+        "r":{
+            "id":"minecraft:redstone_block",
+            "meta":0
+        },
+        "g":{
+            "id":"minecraft:glowstone",
+            "meta":0
+        }
+    },
+
+    "shape":[
+        [
+            ["_","_","_"],
+            ["_","m","_"],
+            ["_","_","_"]
+        ],
+        [
+            ["_","_","_"],
+            ["_","d","_"],
+            ["_","_","_"]
+        ],
+        [
+            ["r","g","r"],
+            ["g","m","g"],
+            ["r","g","r"]
+        ]
+    ]
+}

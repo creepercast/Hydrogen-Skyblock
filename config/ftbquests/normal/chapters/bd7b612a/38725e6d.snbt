@@ -1,0 +1,26 @@
+{
+	title: "扩建你的岛！",
+	x: 6.0d,
+	y: -2.0d,
+	description: "草方块再生工程",
+	text: [
+		"有了泥土，你可以不必为草方块的消失而烦恼了，毕竟，你可以无限堆肥制作无限的泥土",
+		"",
+		"当然，也不建议花很多时间来堆肥，毕竟之后的路还远着呢"
+	],
+	dependencies: [
+		"1ca142d9"
+	],
+	tasks: [{
+		uid: "5f10f37c",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}]
+	}],
+	rewards: [{
+		uid: "f0849604",
+		type: "random",
+		table: 0
+	}]
+}

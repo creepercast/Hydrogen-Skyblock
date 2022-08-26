@@ -1,0 +1,19 @@
+{
+	title: "基础工艺",
+	x: 4.0d,
+	y: 0.0d,
+	description: "游戏结束（大误）",
+	text: [
+		"提示：如果你熟悉无中生有，那请忽略下面的任务，用你自己的方法，获得尘土吧"
+	],
+	dependencies: [
+		"5479747b"
+	],
+	tasks: [{
+		uid: "52b084a5",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "筛网进化论 I",
+	x: 12.0d,
+	y: -4.0d,
+	description: "燧石进化网",
+	text: [
+		"恭喜，你获得了新的矿物产出"
+	],
+	dependencies: [
+		"cc6667a7"
+	],
+	tasks: [{
+		uid: "69a2b2b9",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 2"
+		}]
+	}]
+}

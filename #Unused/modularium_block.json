@@ -1,0 +1,49 @@
+{
+    "name":"compactmachines3:modularium_block",
+    "disabled":false,
+
+    "target-item":"additions:hsadd-blockmodularium",
+    "target-count":4,
+
+    "duration":1000,
+    "symmetrical":true,
+
+    "catalyst":"mekanism:reinforcedalloy",
+    "catalyst-meta":0,
+
+    "input-types":{
+        "i":{
+            "id":"minecraft:iron_block",
+            "meta":0
+        },
+        "g":{
+            "id":"minecraft:gold_block",
+            "meta":0
+        },
+        "r":{
+            "id":"minecraft:redstone_block",
+            "meta":0
+        },
+        "s":{
+            "id":"minecraft:glowstone",
+            "meta":0
+        }
+    },
+    "shape":[
+        [
+            ["i","s","i"],
+            ["s","r","s"],
+            ["i","s","i"]
+        ],
+        [
+            ["s","r","s"],
+            ["r","g","r"],
+            ["s","r","s"]
+        ],
+        [
+            ["i","s","i"],
+            ["s","r","s"],
+            ["i","s","i"]
+        ]
+    ]
+}

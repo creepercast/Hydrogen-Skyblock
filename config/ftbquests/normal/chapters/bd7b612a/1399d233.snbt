@@ -1,0 +1,15 @@
+{
+	x: 10.0d,
+	y: 0.0d,
+	description: "石粒之块",
+	dependencies: [
+		"3b1d1db1"
+	],
+	tasks: [{
+		uid: "e7ff57ff",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}]
+	}]
+}

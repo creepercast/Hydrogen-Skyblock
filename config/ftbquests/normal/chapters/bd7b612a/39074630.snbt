@@ -1,0 +1,17 @@
+{
+	title: "养蚕",
+	x: 4.0d,
+	y: 2.0d,
+	description: "制丝",
+	dependencies: [
+		"870aa4ed",
+		"9af7cce4"
+	],
+	tasks: [{
+		uid: "6edb85a3",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_material 1 2"
+		}]
+	}]
+}

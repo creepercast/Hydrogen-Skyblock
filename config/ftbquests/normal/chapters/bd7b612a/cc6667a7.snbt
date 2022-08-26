@@ -1,0 +1,19 @@
+{
+	title: "不要徒手挖了！",
+	x: 12.0d,
+	y: -2.0d,
+	description: "副 产 物 过 量",
+	text: [
+		"你可以用燧石升级你的筛网，这样你就可以获得更高级的矿物"
+	],
+	dependencies: [
+		"0f795bed"
+	],
+	tasks: [{
+		uid: "3395dcaa",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}]
+	}]
+}
