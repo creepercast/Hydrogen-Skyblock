@@ -1,7 +1,7 @@
 {
-  "name": "§3Frozen equ Pear",
+  "name": "§bFrozen equ Pear",
   "shines": true,
-  "tooltip": "§3§oCold, but Yummy ~",
+  "tooltip": "§3§oequ, but freezing",
   "hunger": 8,
   "saturation": 0.3125,
   "always_edible": true,

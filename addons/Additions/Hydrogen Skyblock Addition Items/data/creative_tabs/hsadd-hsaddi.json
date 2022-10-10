@@ -8,9 +8,6 @@
       "item": "additions:hsadd-blockmodularium"
     },
     {
-      "item": "additions:hsadd-nuggetmodularium"
-    },
-    {
       "item": "additions:hsadd-thermal_casing"
     },
     {
@@ -41,6 +38,12 @@
       "item": "additions:hsadd-elvencrystal"
     },
     {
+      "item": "additions:hsadd-ingotyunxi"
+    },
+    {
+      "item": "additions:hsadd-ingotysnsoft"
+    },
+    {
       "item": "additions:hsadd-blockaquamarine"
     },
     {
@@ -48,6 +51,12 @@
     },
     {
       "item": "additions:hsadd-ingotstarsteel"
+    },
+    {
+      "item": "additions:hsadd-blankcelestialnotes"
+    },
+    {
+      "item": "additions:hsadd-ingotimpetus"
     },
     {
       "item": "additions:hsadd-wyvern_circuit"

@@ -1,5 +1,6 @@
 {
-  "name": "§dElven Crystal",
+  "name": "§eElven Crystal",
+  "shines": true,
   "tooltip": "§d§oThe Essence of Elven ...",
   "type": "additions:simple"
 }
