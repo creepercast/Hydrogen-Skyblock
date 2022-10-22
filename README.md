@@ -25,9 +25,9 @@ Minecraft 1.12.2
 - 压缩空间（Compact Machines）
 - 热力膨胀5（Thermal Expansion 5）
 - 热力基本（Thermal Foundation）
-- 精制存储（Refined Storage）
 - 通用机械（Mekanism）
 - 通用机械发电机（Mekanism Generators）
+- 科技复兴（Tech Reborn）
 - 末影接口（Ender IO）
 - 集成动力（Intergrated Dynamics）
 - 植物魔法（Botania）
@@ -36,6 +36,7 @@ Minecraft 1.12.2
 - 星辉魔法（Astral Sorcery）
 - 天境（The Aether）
 - 神秘时代6（Thaumcraft 6）
+- 精制存储（Refined Storage）
 - 应用能源2（Applied Energistics 2）
 - 懒人AE2（Lazy AE2）
 - 龙之研究（Draconic Evolution）
@@ -77,6 +78,7 @@ Minecraft 1.12.2
 - Redstone Flux API
 - CoFH World
 - Code Chicken Lib
+- 重生核心（Reborn Core）
 - 末影核心（Ender Core）
 - Cyclops Core
 - Common Capabilities
