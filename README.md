@@ -25,6 +25,7 @@ Minecraft 1.12.2
 - 压缩空间（Compact Machines）
 - 热力膨胀5（Thermal Expansion 5）
 - 热力基本（Thermal Foundation）
+- 精制存储（Refined Storage）
 - 通用机械（Mekanism）
 - 通用机械发电机（Mekanism Generators）
 - 末影接口（Ender IO）
