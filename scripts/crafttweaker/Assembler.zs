@@ -49,7 +49,7 @@ var RecList = {
         // Botanical Brewery
         [[<minecraft:brewing_stand>,<botania:livingrock>*3,<botania:livingwood>*3,<botania:manaresource:1>,<botania:manaresource:23>],60,100]:[[<botania:brewery>]],
         // Mana Pylon
-        [[<botania:manaresource:1>*2,<botania:manaresource:2>*2,<botania:gold_ingot>*2,<botania:manaresource:23>],60,50]:[[<botania:pylon>]],
+        [[<botania:manaresource:1>*2,<botania:manaresource:2>*2,<minecraft:gold_ingot>*2,<botania:manaresource:23>],60,50]:[[<botania:pylon>]],
         // Natura Pylon
         [[<botania:pylon>,<botania:manaresource:18>*3,<minecraft:emerald>*2,<botania:livingwood>],80,100]:[[<botania:pylon:1>]],
         // Gaia Pylon
