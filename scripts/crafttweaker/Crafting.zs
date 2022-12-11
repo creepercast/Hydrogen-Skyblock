@@ -5,7 +5,7 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
 
-// Modular Machinery recipes are in different file.
+// Modular Machinery recipes are not in this file.
 var shapedList = {
     // Compact Machines 3 - Miniaturization Field Projector
     [<compactmachines3:fieldprojector>*1,true]:[
@@ -18,7 +18,7 @@ var shapedList = {
         [<thermalfoundation:material:352>,<thermalexpansion:frame>,<thermalfoundation:material:352>],
         [null,<thermalfoundation:material:352>,null]],
     // Thermal Expansion - Thermal Casing
-    [<additions:hsadd-thermal_casing>*1]:[
+    [<additions:hsadd-thermal_casing>*1,false]:[
         [null,<thermalfoundation:material:354>,null],
         [<thermalfoundation:material:354>,<thermalexpansion:frame>,<thermalfoundation:material:354>],
         [null,<thermalfoundation:material:354>,null]],

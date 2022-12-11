@@ -14,7 +14,7 @@ import mods.modularmachinery.RecipeBuilder;
 var RecList = {
     "applied": {
         // Quartz Fiber
-        [[<appliedenergistics2:material:3>,<minecraft:glass>*2],20,20]:[<appliedenergistics2:material:140>*8],
+        [[<appliedenergistics2:material:3>,<minecraft:glass>*2],20,20]:[[<appliedenergistics2:material:140>*8]],
         // ME Glass Cable - Fluix
         [[<appliedenergistics2:part:140>*2,<ore:fluixQuartz>],20,30]:[[<appliedenergistics2:part:16>*4]],
         // Formation Core
@@ -79,8 +79,13 @@ var RecList = {
         [[<minecraft:crafting_table>,<minecraft:ender_eye>*2,<thermalfoundation:material:359>*5],600,1000]:[[<extendedcrafting:ender_crafter>]],
         // Ender Alternator
         [[<minecraft:ender_eye>*2,<thermalfoundation:material:167>,<thermalfoundation:material:359>*4],300,1000]:[[<extendedcrafting:ender_alternator>]],
+
         // Basic Capacitor
-        [[<minecraft:redstone>*5,<minecraft:iron_ingot>*4,<enderio:item_material:20>*2],40,200]:[[<enderio:item_basic_capacitor>]],
+        [[<minecraft:redstone>*2,<ore:ingotCopper>*2,<minecraft:iron_ingot>,<enderio:item_material:20>*2],40,200]:[[<enderio:item_basic_capacitor>]],
+        // Double-Layer Capacitor
+        [[<enderio:item_basic_capacitor>*2,<enderio:item_alloy_ingot:1>*2,<enderio:item_material:23>],50,300]:[[<enderio:item_basic_capacitor:1>]],
+        // Octadic Capacitor
+        [[<enderio:item_basic_capacitor:1>*2,<enderio:item_alloy_ingot:2>*2,<minecraft:glowstone>],60,400]:[[<enderio:item_basic_capacitor:2>]],
     },
 
     "engineering":{

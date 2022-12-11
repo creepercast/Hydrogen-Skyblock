@@ -8,8 +8,8 @@ import crafttweaker.data.IData;
 import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.RecipeBuilder;
 
-val mC = <additions:hsadd-manacrystal>;
-val eC = <additions:hsadd-elvencrystal>;
+val mC = <additions:hsadd-manacrystal>; // Mana Crystal
+val eC = <additions:hsadd-elvencrystal>; // Elven Crystal
 
 var recipeList = {
     "mana":{

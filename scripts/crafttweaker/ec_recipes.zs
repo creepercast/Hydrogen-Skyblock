@@ -27,5 +27,6 @@ var CataList = {
     <extendedcrafting:material:19>:<extendedcrafting:material:13>,
 };
 for input,output in CataList {
+    recipes.remove(output);
     mods.immersiveengineering.MetalPress.addRecipe(output,input,<extendedcrafting:material:2>,2000,1);
 }
