@@ -5,10 +5,22 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
 
-// Certus Quartz recipe rebuild
-// Sieve recipe of Certus Quartz has been removed in config.
-mods.tconstruct.Casting.addBasinRecipe(<appliedenergistics2:material>,<minecraft:quartz>,<integrateddynamics:block_menril_resin>,100,true,20);
+import mods.appliedenergistics2.Inscriber;
 
-// Skystone recipe rebuild
-recipes.remove(<appliedenergistics2:sky_stone_block>);
-mods.tconstruct.Casting.addBasinRecipe(<appliedenergistics2:sky_stone_block>,<appliedenergistics2:material:45>,<liquid:obsidian>,288,true,40);
+// Sieve recipe of Certus Quartz has been removed in config.
+
+// First Bool : false:Consume All ; true:Consume First
+// Second Bool : true:remove old recipes ; true:remain
+var inscriberRecipe = {
+    // Fluix Pearl
+    [<minecraft:ender_pearl>,<enderio:item_material:34>,<appliedenergistics2:material:12>]:[<appliedenergistics2:material:9>,false,true]
+};
+
+// Mark Recipe
+var mark = 0;
+for input,output in inscriberRecipe {
+    if (output[2]) {
+        recipes.remove(output[0]);
+    }
+    Inscriber.addRecipe(output[0],input[0],output[1],input[1],input[2]);
+}

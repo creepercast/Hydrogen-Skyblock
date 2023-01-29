@@ -12,7 +12,7 @@ import mods.modularmachinery.RecipeBuilder;
 
 // Sun (Note 0)
 RecipeBuilder.newBuilder("tc_n_day","celestial_recorder",200).
-addItemInput(<additions:hsadd-blankcelestialnotes>*1).
+addItemInput(<contenttweaker:blank_star_map>*1).
 setAltitude(128,256).
 setTime(450,11000).
 setDimension([0]).
@@ -30,12 +30,12 @@ var noteList2 = [ // Moon
 // Stars & Moon
 for i in [0,1,2,3,4,5,6,7] {
     var reci = RecipeBuilder.newBuilder("tc_n_night"+i,"celestial_recorder",200);
-    reci.addItemInput(<additions:hsadd-blankcelestialnotes>*1);
+    reci.addItemInput(<contenttweaker:blank_star_map>*1);
     reci.setAltitude(128,256).setTime(13800,22000).setDimension([0]).setMoonPhase([i]).addEnergyPerTickInput(50);
     for item in noteList1 {
         reci.addItemOutput(item*1).setChance(0.18);
     }
     reci.addItemOutput(noteList2[i]).setChance(0.18);
-    reci.addItemOutput(<additions:hsadd-blankcelestialnotes>*1).setChance(0.1);
+    reci.addItemOutput(<contenttweaker:blank_star_map>*1).setChance(0.1);
     reci.build();
 }

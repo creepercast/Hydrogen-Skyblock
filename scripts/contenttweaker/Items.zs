@@ -67,6 +67,10 @@ eternaliumIngot.beaconPayment = true;
 eternaliumIngot.rarity = "rare";
 eternaliumIngot.register();
 
+val flamingIngot as Item = VanillaFactory.createItem("flaming_ingot");
+flamingIngot.beaconPayment = true;
+flamingIngot.register();
+
 val fluxAlloyIngot as Item = VanillaFactory.createItem("flux_alloy_ingot");
 fluxAlloy.beaconPayment = true;
 fluxAlloy.rarity = "uncommon";
@@ -115,6 +119,10 @@ purestWater.register();
 val purgatoryAlloy as Item = VanillaFactory.createItem("purgatory_alloy");
 purgatoryAlloy.rarity = "uncommon";
 purgatoryAlloy.register();
+
+val rainDrop as Item = VanillaFactory.createItem("rain_drop");
+rainDrop.rarity = "uncommon";
+rainDrop.register();
 
 val rainFlying as Item = VanillaFactory.createItem("rain_flying");
 rainFlying.rarity = "rare";
@@ -165,6 +173,11 @@ twilightEmber.register();
 val wyvernCircuit as Item = VanillaFactory.createItem("wyvern_circuit");
 wyvernCircuit.rarity = "epic";
 wyvernCircuit.register();
+
+val ysnsoftIngot as Item = VanillaFactory.createItem("ysnsoft_ingot");
+ysnsoftIngot.beaconPayment = true;
+ysnsoftIngot.rarity = "rare";
+ysnsoftIngot.register();
 
 val yunxiCookie as Item = VanillaFactory.createItem("yunxi_cookie");
 yunxiCookie.rarity = "rare";

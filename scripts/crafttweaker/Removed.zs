@@ -14,6 +14,10 @@ var Items = [
     <appliedenergistics2:grindstone>,<appliedenergistics2:crank>,
     // Metorite Compass. There won't be any Metorites in Skyblock world.
     <appliedenergistics2:sky_compass>,
+
+    // Ender IO
+    // Silicon. Please use Silicon of AE2.
+    <enderio:item_material:5>,
 ];
 
 for item in Items {

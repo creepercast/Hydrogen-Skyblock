@@ -26,7 +26,9 @@ var shapedList = {
 
 var shapelessList = {
     // Botania - Red String
-    [<botania:manaresource:12>*1,true]:[<minecraft:string>,<minecraft:redstone>]
+    [<botania:manaresource:12>,true]:[<minecraft:string>,<minecraft:redstone>],
+    // CoT - Blank Celestial Note
+    [<contenttweaker:blank_celestial_note>,true]:[<minecraft:paper>,<thaumcraft:salis_mundus>]
 };
 
 // Mark Recipes
