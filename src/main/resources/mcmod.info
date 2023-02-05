@@ -1,0 +1,19 @@
+[
+  {
+    "modid": "hydrogenation_tinker",
+    "name": "hydrogenation_tinker",
+    "description": "Add some traits to TiC2",
+    "version": "0.0.5-alpha",
+    "mcversion": "1.12.2",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "peter20050526",
+      "Team Threshold"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": ["Tinker's Construct","Mantle"]
+  }
+]
