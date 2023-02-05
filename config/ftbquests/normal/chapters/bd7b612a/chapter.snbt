@@ -1,7 +1,0 @@
-{
-	title: "第0章 无中生有-万物起源",
-	icon: "minecraft:grass",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}
